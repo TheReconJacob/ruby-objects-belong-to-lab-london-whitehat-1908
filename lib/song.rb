@@ -4,6 +4,7 @@ class Song
  
   def initialize(title, artist)
     @title = title
+    @artist = artist
     hotline_bling = Song.new("Hotline Bling")
     hotline_bling.artist = "Drake"
   end
