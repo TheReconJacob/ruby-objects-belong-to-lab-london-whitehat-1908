@@ -3,6 +3,7 @@ class Song
   attr_accessor :song
  
   def initialize(song)
-    @song = song
+    @Song = song
+    hotline_bling = Song.new("Hotline Bling")
   end
 end
