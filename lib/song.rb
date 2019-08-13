@@ -5,3 +5,4 @@ def initialize(name, genre)
     @name = name
     @artist = artist
   end
+end
